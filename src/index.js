@@ -46,7 +46,7 @@ function displayForecast(response) {
             <div class="picture">
               <div class="days">${formatDay(forecastDay.dt)}<br/>
         <img
-          src="http://openweathermap.org/img/wn/${
+          src="https://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
           }@2x.png"
           alt=""
@@ -62,7 +62,7 @@ function displayForecast(response) {
           <div class="daydesc">${forecastDay.weather[0].main}</div>
         </div>
       </div>
-          </div>
+    </div>
 </div>
   `;
     }
