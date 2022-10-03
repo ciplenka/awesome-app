@@ -156,7 +156,7 @@ h4 {
 #weather-forecast {
   font-family: "Rubik Maze", cursive;
   text-align: center;
-  opacity: 100%;
+  opacity: 1;
 }
 #submit-button {
   padding: 0 12px;
