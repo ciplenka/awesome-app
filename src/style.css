@@ -23,7 +23,6 @@ h2 {
 }
 .container {
   display: center;
-  opacity: 1;
 }
 .card {
   margin: auto;
@@ -33,7 +32,6 @@ h2 {
 
 #mainTemp {
   font-size: 400%;
-  opacity: 1;
   margin-left: 80px;
   margin-top: 0%;
 }
@@ -52,7 +50,6 @@ ul {
   margin-bottom: 30px;
   background-color: #f7f5ec;
   text-align: center;
-  overflow: hidden;
   position: relative;
 }
 
@@ -75,7 +72,6 @@ ul {
   bottom: 135%;
   right: 0;
   left: 0;
-  opacity: 0.9;
   transform: scale(3);
   transition: all 0.3s linear 0s;
 }
@@ -156,12 +152,10 @@ h4 {
 #weather-forecast {
   font-family: "Rubik Maze", cursive;
   text-align: center;
-  opacity: 1;
 }
 #submit-button {
   padding: 0 12px;
   color: rgb(3, 0, 9);
-  opacity: 0.8;
   background-color: transparent;
   text-align: center;
   border: none;
@@ -169,7 +163,6 @@ h4 {
 }
 #submit-button:hover {
   color: #0a58ca;
-  opacity: 0.8;
 }
 .daydesc {
   color: rgb(3, 0, 9);
